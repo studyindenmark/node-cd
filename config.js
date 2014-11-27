@@ -18,7 +18,7 @@ Private = {
 			'192.30.252.0/22'
 		]
 	},
-	action: {exec: "../node-cd.sh"}
+	action: {exec: "../node-cd.sh > ../output.log 2>&1"}
 };
 
 module.exports = Private;
